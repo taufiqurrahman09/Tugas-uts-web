@@ -34,7 +34,7 @@ form{
 
 label{
     margin-bottom: 5px;
-    color: azure;
+    color: black;
 
 
 }
@@ -51,7 +51,7 @@ input[type="pasword"]{
 input[type="submit"]{
     padding: 10px;
     background-color: #4caf50;
-    color: white;
+    color: black;
     border: none;
     font-size: 16px;
     cursor: pointer;
@@ -60,5 +60,5 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background-color: #45a049;
-    
+
 }

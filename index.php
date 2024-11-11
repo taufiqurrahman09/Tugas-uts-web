@@ -10,8 +10,13 @@ if($_SERVER["REQUEST_METHOD"]====="POST")
     if(empty($name)|| empty($email)){
         echo"Nama dan Pasword wajib diisi!";
 
-        
+
+    }else{
+        // Menampilkan hasil Pengolahan data
+        echo"<h2>Terimakasih " .$name. "</h2>";
+    
+        echo "<p>pasword sampean:" .$enail. "</p>";
     }
 
-
 }
+?

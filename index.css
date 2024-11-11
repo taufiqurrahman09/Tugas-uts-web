@@ -15,5 +15,18 @@ body{
     background-color: aqua;
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(red, green, blue);
+
+
+}
+
+h1{
+    text-align: center;
+    color: black;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
     
 }

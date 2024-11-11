@@ -28,5 +28,22 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    
+
+}
+
+
+label{
+    margin-bottom: 5px;
+    color: azure;
+
+
+}
+
+input[type="text"],
+input[type="pasword"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
 }

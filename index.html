@@ -7,15 +7,15 @@
     <title>sedikit tak terkendali</title>
     <link rel="stylesheet"href="index.css">
     <script>
-        //fungsi javascript untuk validasi input sebelum form dikirim function validateForm(){
+        //fungsi javascript untuk validasi input sebelum form dikirim 
+        function validateForm(){
         var name=
     document. getElementsByld("name!").value;
-         if(name==){
+         if(name==""){
             alert("nama wajib diisi disini!");
             return false;
          }
          return true;
-        
         }
     </script>
     </head>
@@ -28,7 +28,7 @@
               <input type="text"id="name"
               name="name"placeholder="masukan nama sampean">
 
-<label for="pasword">pasword:</label>
+<label for="pasword">password:</label>
 <input type="password" id="password"
 name="password"placeholder="masukan pasword sampean">
 

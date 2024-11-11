@@ -40,7 +40,7 @@ label{
 }
 
 input[type="text"],
-input[type="pasword"]{
+input[type="password"]{
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -53,7 +53,8 @@ input[type="submit"]{
     background-color: #4caf50;
     color: black;
     border: none;
-    font-size: 16px;
+    font-size: 16px
+    ;
     cursor: pointer;
 
 

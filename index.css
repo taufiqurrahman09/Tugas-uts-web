@@ -47,3 +47,18 @@ input[type="pasword"]{
     border-radius: 5px;
     font-size: 14px;
 }
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+input[type="submit"]:hover{
+    background-color: #45a049;
+    
+}

@@ -24,3 +24,20 @@ function validateForm() {
 function validateForm() {
     var name = document.getElementById("name").value;
     var password = document.getElementById("password").value;
+
+    if(name===""){
+        alert("Nama harus diisi!");
+        return false;
+    }    
+    f(password===""){
+        alert("Nama harus diisi!");
+        return false;
+    }
+
+    // menampilkan pesan selamat datang tanpa reload halaman
+
+    document.getElementById("resul").innerHTML=
+    "<h2>selamat datang ,"+ name+"!</h2>";
+    return false;//mencegah submit form default
+    
+}

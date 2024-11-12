@@ -53,8 +53,7 @@ input[type="submit"]{
     background-color: #4caf50;
     color: black;
     border: none;
-    font-size: 16px
-    ;
+    font-size: 16px;
     cursor: pointer;
 
 
@@ -62,4 +61,61 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #45a049;
 
+}
+/*styling untuk halaman web*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: f4f4f4;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 50%;
+    margin: 50px auto;
+    background-color:floralwhite;
+    border: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+
+}
+
+h1{
+    text-align: center;
+    color: black;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    margin-bottom: 5px;
+    color: #45a049;
+
+}
+input[type="text"];
+input[type="password"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+input[type="submit"]{
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
 }

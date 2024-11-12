@@ -1,3 +1,7 @@
+<?php
+include('exec/index.php')
+?>
+
 <!DOCTYPE html>
 <html lang="id">
     <head>
@@ -6,18 +10,7 @@
     content="width=device-width,initial-scale=1.0">
     <title>sedikit tak terkendali</title>
     <link rel="stylesheet"href="index.css">
-    <script>
-        //fungsi javascript untuk validasi input sebelum form dikirim 
-        function validateForm(){
-        var name=
-    document. getElementsByld("name!").value;
-         if(name==""){
-            alert("nama wajib diisi disini!");
-            return false;
-         }
-         return true;
-        }
-    </script>
+    <script src="script.js"defer></script>
     </head>
     <body>
         <div class="container">
@@ -34,6 +27,7 @@ name="password"placeholder="masukan pasword sampean">
 
 <input type="submit"value="login">
         </form> 
+        </div id="result"></div><div untuk menampilkan hasil->
         </div>
     </body>
 </html>
